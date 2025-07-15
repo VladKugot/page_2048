@@ -4,7 +4,7 @@
 
 ## 🔗 Demo
 
-[DEMO LINK](https://github.com/vladkugot/page_2048/) <!-- Замінити <your_account> на своє ім'я акаунта -->
+[DEMO LINK](https://vladkugot.github.io/page_2048/)
 
 ## 📁 Project Structure
 
