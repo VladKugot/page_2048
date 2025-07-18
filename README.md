@@ -1,10 +1,14 @@
-# 2048 Game
+# 🎮 2048 Game
 
+A browser-based version of the classic **2048 puzzle game**, built with **Vanilla JavaScript**, **HTML5**, and **SCSS**. The game features a 4x4 grid where players combine tiles with the same number to reach the number 2048.
 
+---
 
 ## 🔗 Demo
 
-[DEMO LINK](https://vladkugot.github.io/page_2048/)
+🌐 [Live Demo](https://vladkugot.github.io/page_2048/)
+
+---
 
 ## 📁 Project Structure
 
@@ -15,14 +19,40 @@
 
 ## 🧠 Game Rules
 
-- Ігрове поле — 4x4
-- Натискання стрілки зсуває всі клітинки в цьому напрямку
-- Однакові значення зливаються, утворюючи подвоєне
-- Після кожного ходу з'являється нова клітинка (2 або 4)
-- Гравець виграє, коли утворюється 2048
-- Гра завершується, якщо більше не залишилося доступних ходів
+- The game board is a 4x4 grid.
+- Pressing arrow keys moves all tiles in the corresponding direction.
+- Tiles with the same value merge into one with a doubled value.
+- After each move, a new tile (2 or 4) appears at a random position.
+- The player wins when a tile reaches **2048**.
+- The game ends when no more moves are possible.
 
-## 🛠 Technologies Used  
-- HTML5  
-- SCSS (Sass)  
-- JavaScript
+---
+
+## 🛠 Technologies Used
+
+- **HTML5** – Markup structure  
+- **SCSS (Sass)** – Styling  
+- **JavaScript (Vanilla)** – Game logic and interactions
+
+---
+
+## 🚀 How to Run the Project Locally
+
+Follow these steps to run the game locally:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/vladkugot/page_2048.git
+cd page_2048
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+```bash
+npm start
+```
